@@ -1,0 +1,326 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;}
+
+img{
+	max-width:100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+body{
+	font-family: "Bruno Ace SC", sans-serif;
+	line-height: 1.5;
+}
+
+.div-page{
+	height: 1080px;
+}
+
+.width{
+	width: 1296px;
+	margin: 0 auto;
+}
+
+.mg-auto{
+	margin: 0 auto;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-center-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-center{
+	justify-content: center;
+	align-items: center;
+	margin-top: 72px;
+}
+
+
+.mr-13{
+	margin-right: 13px;
+}
+
+.mr-16{
+	margin-right: 16px;
+}
+
+.mr-20{
+	margin-right: 20px;
+}
+
+.mr-24{
+	margin-right: 24px;
+}
+
+.mb-28{
+	margin-bottom: 28px;
+}
+
+.mr-113{
+	margin-right: 113px;
+}
+.mb-24{
+	margin-bottom: 24px;
+}
+
+
+/* 第一頁 */
+.Bg-img-p1{
+	background-color: black;
+}
+
+
+.nav a{
+	color: aliceblue;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 40px 0px;	
+}
+
+.nav-w{
+	width: 278.5px;
+	text-align: center;
+}
+
+.header{
+	width: 636px;
+}
+
+.header-li{
+	color: white;
+	font-size: 64px;
+}
+
+.header-h1{
+	color: #00FFA3;
+	font-size: 128px;
+	text-align: right;
+}
+
+.header a{
+	text-decoration: none;
+	background-color: white;
+	padding: 12px 24px;
+	border-radius: 32px;
+	color: #000000;
+}
+
+.header-bottom{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* 第二頁 */
+.Bg-img-p2{
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+
+.container-page2{
+	color: aliceblue;
+	width: 526px;
+	height: 442px;
+}
+
+.container-page2 h2{
+	font-size: 64px;
+	margin-bottom: 36px;
+}
+
+.container-page2 p{
+	font-size: 24px;
+	margin-bottom: 32px;
+}
+
+.s-img{
+	margin-top: 32px;
+}
+
+ /* 第三頁 */
+.Bg-img-p3{
+	background-color: rgb(255, 255, 255);
+}
+
+
+.p3-number h3{
+	font-size: 20px;
+
+}
+
+.page3-L{
+	margin: 206px 0px;
+	margin-right: 134px;
+	width: 636px;
+	flex-wrap: wrap;
+}
+
+.page3-L-01{
+	width: 306px;
+	height: 148px;
+	border:1px solid #E3E3E3 ;
+	flex-direction: column;
+	padding: 16px;
+}
+
+.page3-L-center{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.page3-L h3{
+	font-size: 20x;
+	margin-bottom: 4px;
+}
+
+.page3-L p{
+	font-size: 16x;
+}
+
+.page3-R{
+	width: 526px;
+	height: 420px;
+}
+
+.page3-R h2{
+	font-size: 64px;
+	margin-bottom: 36px;
+}
+
+.page3-R p{
+	font-size: 24px;
+}
+
+.footer-bg{
+	background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+	padding: 96px 0px;
+}
+
+.footer-bg p{
+	font-size: 64px;
+	color: white;
+	text-align: center;
+}
+
+.flex-footer{
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+/* 第四頁 */
+.Bg-img-p4{
+	background-color: rgb(255, 255, 255);
+	border:1px solid #ffffff;
+}
+
+.mt-160{
+	margin-top: 160px;
+}
+
+.mb-160{
+	margin-bottom: 160px;
+}
+
+.p4-h2{
+	font-size: 64px;
+	margin-left: 550px;
+	margin-bottom: 16px;
+}
+
+.p4-img-01{
+	width: 416px;
+	height: 530px;
+}
+
+.p4-footer{
+	font-size: 16px;
+	color: #ffffff;
+	padding: 40px;
+	background-color: #000000;
+	text-align: center;
+}
+
+.p4-p{
+	width: 856px;
+}
+
+.p4-bottom{
+	font-size: 16px;
+	text-decoration: none;
+	background-color: rgb(0, 0, 0);
+	padding: 12px 24px;
+	border-radius: 32px;
+	color: #ffffff;
+}
+
+.bottom-posation{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.footer-bg-p4{
+	background: black;
+}
